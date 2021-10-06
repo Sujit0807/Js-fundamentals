@@ -1,0 +1,82 @@
+Asynchronous Code(running at background without blocking other code)
+
+There are a few ways to work with Async code.
+These help us to write Aync code :
+# Callbacks
+# Promises
+# Async/Await
+
+
+AJAX : 
+        # Asyncronous javaScript and XML
+        # Set of web technologies
+        # Send and Receive data Asyncronously
+        # Does not interfere with the current page
+        # JSON has replace XML for the most part
+        # Make async request in the background
+        # No page reload/refresh
+        # Fetch data
+        # Very interactive
+
+  
+AJAX :  # AJAX stands for Asynchronous JavaScript And XML
+        # AJAX is not a programming language
+        # AJAX is a technique for accessing web servers from a web page.
+        # AJAX is a technique for creating fast and dynamic web pages.
+        # AJAX allows web pages to be updated asynchronously by exchanging small amounts of data with the server behind 
+          the scenes
+        # Making request on the page while its already or after its loaded
+
+AJAX :  # AJAX uses XHR object to achieve this
+        # Data can be transfered in any format and protocol (Not Always https necessarily)
+
+
+
+Most Async code you work with will be part of an API or Library
+(With help of this we can make request to server)
+
+# XHR
+# Fetch, AXIOS, other HTTP libraries
+# Node.js fs(filesystem) Module
+       
+
+XMLHttpRequest(XHR) object: 
+# API in the form of an object
+# Provided by the browser JS environment 
+# Methods to transfer data between client/ server
+# Can be used with other protocols than HTTP
+# Can work with data other than XML (JSON,plain text)
+
+
+There are Libraries and Other mothods to make http request :
+# Fetch API
+# Axios
+# Superagent
+# jquery (not prefered)
+# Node HTTP
+(Now it is upto you how you make http request)
+
+
+PREFERED ONE : 1. Fetch API (coz it's part of vannila JavaScript)
+               2. Axios & Superagent (external library make code easy)
+               3. Node HTTP
+
+NOT PREFERED : 1. AJAX(XHR(XMLHttpRequest)) (coz it's older one)
+               2. jquery (coz its totally dom manipulation library) 
+
+
+
+Asynchronous programming --> how to write Asynchronous code --> with help of Callbacks, Promises, async/Await --> why to write Asynchronous code ?
+--> for do not disturbing other code coz it may take time --> To make Asynchronous http request to servers/APIs --> by help of following 
+technologies (like AJAX, axios, Fetch) --> data comes in format of JSON/XML/text  --> 
+
+
+
+
+
+
+
+
+
+
+
