@@ -5,7 +5,7 @@
 
 
 // 1. Function as argument :
-function callTwice(func) {   // Anthor function as argument
+function callTwice(func) {   // Another function as argument
     func();
     func();
 }

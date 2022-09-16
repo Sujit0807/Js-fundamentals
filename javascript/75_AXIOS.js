@@ -49,7 +49,7 @@ const addNewJoke = async () => {
 const getDadJoke = async () => {
 
     try{
-        const config = {headers : {Accept : 'application/json'}};   //we can many headers as we want 
+        const config = {headers : {Accept : 'application/json'}};   // we can many headers as we want 
         const res = await axios.get('https://icanhazdadjoke.com/',config);
         // here we want only application/json format information from api
         return res.data.joke;

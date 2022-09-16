@@ -4,10 +4,10 @@
 
 const numbers = [1,2,3,4,5,6,7];
 
-const val = numbers.map(function(num){
-    console.log(num);
-});
-console.log(val); // you will get array of undefined if we does'nt returns anything
+// const val = numbers.map(function(num){
+//     console.log(num);
+// });
+// console.log(val); // you will get array of undefined if we does'nt returns anything
 
 
 const val = numbers.map(function(num){  // here num iterate over array

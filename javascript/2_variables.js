@@ -37,7 +37,7 @@ console.log(val);
 val += 1;  // ERROR
 console.log(val);
 
-const myNum;
+// const myNum;
 myNum = 12; // ERROR
 console.log(myNum);
 

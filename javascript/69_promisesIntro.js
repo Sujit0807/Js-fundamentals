@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------------------------------------------------------------------
  Enter Promises : A promise is an object representing the eventual completion or failure of an asynchromous operation
-                  It is like try and catch i think soo
+                  
 
  Asynchronus : At a same time many things happening
  Syncronous  : one by one things are happening 
